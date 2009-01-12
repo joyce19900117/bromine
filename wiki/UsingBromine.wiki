@@ -10,7 +10,7 @@ Bromine will run your application on simulator or device executing a user-define
 Your 'screens' will be represented as XML so your commands will be able to access you view through XPath.
 
 == Installing Bromine ==
- # download it from svn to your project's folder or use it as an external svn resource;
+ # export Bromine from svn to your project's folder or use it as an external svn resource;
  # back to XCode, create a new target (Application) and name it anything you like - eg. Bromine;
  # add Bromine folder to your project and link it only with Bromine target;
  # 
