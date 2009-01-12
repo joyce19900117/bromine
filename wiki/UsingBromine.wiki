@@ -2,7 +2,16 @@
 
 = Using Bromine =
 
+== Introduction ==
 still under construction... sorry, come back later
+
+Bromine will run your application on simulator or device executing a user-defined list of commands that will manipulate and verify application status.
+
+Your 'screens' will be represented as XML so your commands will be able to access you view through XPath.
+
+== Installing Bromine ==
+# download it from svn to your project's folder or use it as an external svn resource;
+# back to XCode, create a new target (Application) 
 
 just a few annotations...
 - create target
