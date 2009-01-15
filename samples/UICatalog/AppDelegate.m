@@ -48,7 +48,7 @@ Copyright (C) 2008 Apple Inc. All Rights Reserved.
 
 #import "AppDelegate.h"
 #import "MainViewController.h"
-#ifdef SCRIPT_DRIVEN_TEST_MODE_ENABLED
+#ifdef BROMINE_ENABLED
 #import "ScriptRunner.h"
 #endif
 
@@ -92,7 +92,7 @@ Copyright (C) 2008 Apple Inc. All Rights Reserved.
 	[window addSubview: navigationController.view];
 	[window makeKeyAndVisible];
 	NSLog(@"oi");
-#ifdef SCRIPT_DRIVEN_TEST_MODE_ENABLED
+#ifdef BROMINE_ENABLED
 	NSLog(@"aqui");
 	[[[ScriptRunner alloc] init] autorelease];
 #endif

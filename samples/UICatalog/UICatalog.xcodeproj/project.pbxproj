@@ -109,7 +109,7 @@
 		55D454B80EEB3955004ABFA7 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 558178720EE9E74600C051B6 /* XPathQuery.m */; };
 		55D454B90EEB3957004ABFA7 /* UIApplication+XMLDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 5581786E0EE9E74600C051B6 /* UIApplication+XMLDescription.m */; };
 		55D454BA0EEB3958004ABFA7 /* TouchSynthesis.m in Sources */ = {isa = PBXBuildFile; fileRef = 5581786C0EE9E74600C051B6 /* TouchSynthesis.m */; };
-		55D454BB0EEB395A004ABFA7 /* TestScript.plist in Resources */ = {isa = PBXBuildFile; fileRef = 558178C60EE9E96700C051B6 /* TestScript.plist */; };
+		D85543B90F1FBABB00A2A26A /* TestScript.plist in Resources */ = {isa = PBXBuildFile; fileRef = D85543B80F1FBABB00A2A26A /* TestScript.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -202,6 +202,7 @@
 		55D453AA0EEB3764004ABFA7 /* Bromine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bromine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D453AC0EEB3764004ABFA7 /* Bromine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bromine-Info.plist"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D85543B80F1FBABB00A2A26A /* TestScript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TestScript.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,6 +244,7 @@
 		29B97314FDCFA39411CA2CEA /* Toolbar */ = {
 			isa = PBXGroup;
 			children = (
+				D85543B40F1FBAA000A2A26A /* Tests */,
 				558178680EE9E74600C051B6 /* Bromine */,
 				533959C80DB800E8004A17CB /* ReadMe.txt */,
 				29B97315FDCFA39411CA2CEA /* Sources */,
@@ -399,6 +401,14 @@
 			path = Bromine;
 			sourceTree = "<group>";
 		};
+		D85543B40F1FBAA000A2A26A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D85543B80F1FBABB00A2A26A /* TestScript.plist */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -517,7 +527,7 @@
 				55D453C50EEB38D3004ABFA7 /* UIButton_custom.png in Resources */,
 				55D453C60EEB38D3004ABFA7 /* whiteButton.png in Resources */,
 				55D453C70EEB38D3004ABFA7 /* yellowslide.png in Resources */,
-				55D454BB0EEB395A004ABFA7 /* TestScript.plist in Resources */,
+				D85543B90F1FBABB00A2A26A /* TestScript.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,7 +669,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
-				GCC_PREPROCESSOR_DEFINITIONS = SCRIPT_DRIVEN_TEST_MODE_ENABLED;
+				GCC_PREPROCESSOR_DEFINITIONS = BROMINE_ENABLED;
 				HEADER_SEARCH_PATHS = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.0.sdk/usr/include/libxml2;
 				INFOPLIST_FILE = "Bromine-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
@@ -686,7 +696,7 @@
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
-				GCC_PREPROCESSOR_DEFINITIONS = SCRIPT_DRIVEN_TEST_MODE_ENABLED;
+				GCC_PREPROCESSOR_DEFINITIONS = BROMINE_ENABLED;
 				HEADER_SEARCH_PATHS = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.0.sdk/usr/include/libxml2;
 				INFOPLIST_FILE = "Bromine-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
