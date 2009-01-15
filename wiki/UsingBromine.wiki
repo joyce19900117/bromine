@@ -4,7 +4,7 @@
 
 == Introduction ==
 
-Bromine will run your application on simulator or device executing a user-defined list of commands that will manipulate and verify application status.
+Bromine will run your application on simulator executing a user-defined list of commands that will manipulate and verify application status.
 
 Your 'screens' will be represented as XML so your commands will be able to access you view through XPath.
 
