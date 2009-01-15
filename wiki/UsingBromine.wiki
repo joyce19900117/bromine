@@ -1,9 +1,8 @@
-#summary learn how to use Bromine (under construction)
+#summary learn how to use Bromine
 
 = Using Bromine =
 
 == Introduction ==
-still under construction... sorry, come back later
 
 Bromine will run your application on simulator or device executing a user-defined list of commands that will manipulate and verify application status.
 
@@ -136,3 +135,9 @@ Now you can do the magic. Get your application XML, define XPath sentence for th
 == Nothing like a good example ==
 
 I know it's pretty boring read all the stuff above. If you feel like skipping the reading and seeing Bromine in action, just check out the UICatalog sample (http://bromine.googlecode.com/svn/samples/UICatalog). 
+
+== Please, contribute ==
+
+No.. not asking for money...
+
+There are many possible features to be improved or added to Bromine. Feel free to notify bugs, make suggestions or critics and, even better, *send patches*!
