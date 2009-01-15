@@ -136,6 +136,8 @@ Now you can do the magic. Get your application XML, define XPath sentence for th
 
 I know it's pretty boring read all the stuff above. If you feel like skipping the reading and seeing Bromine in action, just check out the UICatalog sample (http://bromine.googlecode.com/svn/samples/UICatalog). 
 
+Don't forget to leave console window open so you can watch your commands' results.
+
 == Please, contribute ==
 
 No.. not asking for money...
