@@ -11,13 +11,39 @@ Your 'screens' will be represented as XML so your commands will be able to acces
 
 == Installing Bromine ==
  # export Bromine from svn to your project's folder or use it as an external svn resource;
- # back to XCode, create a new target (Application) and name it anything you like - eg. Bromine;
- # add Bromine folder to your project and link it only with Bromine target;
- # 
+ # back to XCode, duplicate your application main target and name anything you like (eg. Bromine);
+ # add Bromine folder to your project and link it *only* with Bromine target;
+ # edit Bromine target and, in Build section, do the following:
+  # add this to the Header Search Path: */Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.0.sdk/usr/include/libxml2*
+  # add the preprocessor macro (_GCC_PREPROCESSOR_DEFINITIONS_) with value _BROMINE_ENABLED_
+  # make sure _GCC_C_LANGUAGE_STANDARD_ is _c99_
+ # now the invasive part: add the following lines to your application delegate
+  {{{
+#import "MyAppDelegate.h"
 
+#ifdef BROMINE_ENABLED
+    #import "ScriptRunner.h"
+#endif
+
+@implementation MyAppDelegate
+
+...
+
+- (void)applicationDidFinishLaunching:(UIApplication *)application {
+    ...
+
+    #ifdef BROMINE_ENABLED
+	[[[ScriptRunner alloc] init] autorelease];
+    #endif
+
+}
+
+}}}
+<wiki:comment>
 just a few annotations...
 - header search path (/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.0.sdk/usr/include/libxml2)
 - GCC_PREPROCESSOR_DEFINITIONS = SCRIPT_DRIVEN_TEST_MODE_ENABLED
 - GCC_C_LANGUAGE_STANDARD = c99
 - add sources, resources and libraries
 - add libxml
+</wiki:comment>
