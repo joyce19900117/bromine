@@ -1,4 +1,4 @@
-#summary learn how to use Bromine
+#summary learn how to install and use Bromine
 
 = Using Bromine =
 
@@ -40,7 +40,7 @@ Your 'screens' will be represented as XML so your commands will be able to acces
 }}}
  # create a _TestScript.plist_ file somewhere in your application.
 
-== Writing tests
+== Writing tests ==
 
 Once you created _TestScript.plist_ file you'll be able to start testing your application. Your test script source code should look like this:
 {{{
