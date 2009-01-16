@@ -34,7 +34,7 @@ keyWindow, to a file or stdout.
 *Optional parameters:*
 	outputPath (file path to save PropertyList description of hierarchy, if omitted print to stdout)
 
-	viewXPath (only output views matching this XPath)
+	viewXPath (only output views matching this XPath - NOT WORKING YET)
 ----
 ==pause==
 
