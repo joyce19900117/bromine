@@ -1,4 +1,5 @@
 #summary learn how to install and use Bromine
+#labels Phase-Deploy
 
 = Using Bromine =
 
@@ -130,7 +131,7 @@ Now that you know "who" your views are, you must find a way to "contact" them.
 
 XPath is a language for finding information in an XML document. You'll find a nice tutorial on [http://www.w3schools.com/xpath/default.asp W3Schools - XPath Tutorial].
 
-Now you can do the magic. Get your application XML, define XPath sentence for the desired views and execute your commands on them.
+Now you can do the magic. Get your application XML, define XPath sentence for the desired views and execute your commands on them. Will can take a look at the AvailableCommands list
 
 == Nothing like a good example ==
 
