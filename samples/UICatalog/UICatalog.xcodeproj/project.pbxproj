@@ -197,7 +197,6 @@
 		558178710EE9E74600C051B6 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
 		558178720EE9E74600C051B6 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
 		558178B10EE9E7FC00C051B6 /* Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info copy.plist"; sourceTree = "<group>"; };
-		558178C60EE9E96700C051B6 /* TestScript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TestScript.plist; path = Bromine/TestScript.plist; sourceTree = "<group>"; };
 		558178CC0EE9E9EB00C051B6 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		55D453AA0EEB3764004ABFA7 /* Bromine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bromine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D453AC0EEB3764004ABFA7 /* Bromine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bromine-Info.plist"; sourceTree = "<group>"; };
@@ -275,7 +274,6 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				558178C60EE9E96700C051B6 /* TestScript.plist */,
 				531992A30DCBAE7300530CD7 /* MainWindow.xib */,
 				531992A50DCBAE7300530CD7 /* Localizable.strings */,
 				8D1107310486CEB800E47090 /* Info.plist */,
