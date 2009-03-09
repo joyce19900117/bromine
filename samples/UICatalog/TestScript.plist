@@ -52,8 +52,9 @@
 	</dict>
 	<dict>
 		<key>command</key>
-		<string>touchBackItem</string>
+		<string>touchBackButton</string>
 	</dict>
+
 	<dict>
 		<key>command</key>
 		<string>pause</string>
@@ -63,13 +64,7 @@
 	<dict>
 		<key>command</key>
 		<string>outputView</string>
-	</dict>
-	<dict>
-		<key>command</key>
-		<string>pause</string>
-		<key>seconds</key>
-		<string>22</string>
-	</dict>
-
+	</dict><!-- -->
+	
 </array>
 </plist>
