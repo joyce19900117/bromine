@@ -77,6 +77,11 @@ by a given XPath query.
 	viewXPath (search for a view matching this XPath)
 
 ----
+==touchBackButton==
+
+Performs a synthesized touch down and touch up in the current navigation back button
+
+----
 ==waitForElement==
 
 This command keeps running until the elements associated with
