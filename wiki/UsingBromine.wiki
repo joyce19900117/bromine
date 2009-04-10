@@ -15,6 +15,7 @@ Your 'screens' will be represented as XML so your commands will be able to acces
  # add Bromine folder to your project and link it *only* with Bromine target;
  # edit Bromine target and, in Build section, do the following:
   # add this to the Header Search Path: */Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.0.sdk/usr/include/libxml2*;
+  # link the above library to your Frameworks folder
   # add the preprocessor macro (_GCC_PREPROCESSOR_DEFINITIONS_) with value _BROMINE_ENABLED_;
   # make sure _GCC_C_LANGUAGE_STANDARD_ is _c99_;
  # now the invasive part: add the following lines to your application delegate:
