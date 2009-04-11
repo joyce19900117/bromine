@@ -32,7 +32,7 @@ keyWindow, to a file or stdout.
 *Required parameters:*
 
 *Optional parameters:*
-	outputPath (file path to save PropertyList description of hierarchy, if omitted print to stdout)
+	outputPath (file path to save xml description of hierarchy, if omitted print to stdout)
 
 	viewXPath (only output views matching this XPath - NOT WORKING YET)
 ----
